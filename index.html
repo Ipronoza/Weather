@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="DefaultScreen()">
+
+    <div class='wrapper'>
+        <!-- title -->
+        <div class="title">
+            <p>Weather Forecast by Pronoza</p>
+        </div>
+
+        <!-- widget -->
+        <div class="widget">
+
+            <div class="city-date">
+                <div class="city" id="cityName">Kyiv</div>
+                <div class="weather-date">Loading date...</div>
+            </div>
+
+            <div class="search">
+                <input type="text" id="cityInput">
+                <button>MyGeolocation</button>
+            </div>
+        </div>
+        <div class="center">
+            <div class="weather-temperature">7C</div>
+
+
+
+            <!-- clouds -->
+            <!-- <div class="weather-clouds">
+                <img id="mainImg" src="" alt="Weather Icon">
+            </div> -->
+
+
+            <!-- weather -->
+            <div class="weather">
+                <div class="weather-main">Loading...</div>
+                <div class="weather-pressure">Loading...</div>
+                <div class="weather-humidity">Loading...</div>
+                <div class="weather-wind">Loading...</div>
+            </div>
+        </div>
+
+
+        <!-- Weather for 3 next days -->
+        <div class='weather3day'>
+
+            <div class="day">
+                <div class="child_day" id="day2">Day3</div>
+                <img src="" id="img2">
+                <p class="temp" id="day2Min">Loading...</p>
+                <p class="temp" id="day2Max">Loading...</p>
+            </div>
+
+            <div class="day">
+                <div class="child_day" id="day3">Day3</div>
+                <img src="" id="img3">
+                <p class="temp" id="day3Min">Loading...</p>
+                <p class="temp" id="day3Max">Loading...</p>
+            </div>
+
+            <div class="day_right">
+                <div class="child_day" id="day4">Day3</div>
+                <img src="" id="img4">
+                <p class="temp" id="day4Min">Loading...</p>
+                <p class="temp" id="day4Max">Loading...</p>
+            </div>
+        </div>
+        <div class="anim-text">
+            <p>
+                London: <span id="london_weather"></span>
+                Berlin: <span id="berlin_weather"></span>
+                Paris: <span id="paris_weather"></span>
+                Washington: <span id="washington_weather"></span>
+            </p>
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
