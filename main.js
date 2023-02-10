@@ -83,22 +83,22 @@ function weatherDetails(responce) {
         const { description, id } = responce.weather[0];
 
         if (id == 800) {
-            background.style.backgroundImage = "url('img/clear.jpg')"
+            background.style.backgroundImage = "url('clear.jpg')";
             // wIcon.src = "icons/clear.png";
         } else if (id >= 200 && id <= 232) { 
-            background.style.backgroundImage = "url('img/storm.jpg')";
+            background.style.backgroundImage = "url('storm.jpg')";
             // wIcon.src = "icons/storm.png";
         } else if (id >= 600 && id <= 622) {
-            background.style.backgroundImage = "url('img/snow.jpg')";
+            background.style.backgroundImage = "url('snow.jpg')";
             // wIcon.src = "icons/snow.png";
         } else if (id >= 701 && id <= 781) {
-            background.style.backgroundImage = "url('img/mist.jpg')";
+            background.style.backgroundImage = "url('mist.jpg')";
             // wIcon.src = "icons/haze.png";
         } else if (id >= 801 && id <= 804) {//"icon":"04d"
-            background.style.backgroundImage = "url('img/clouds.jpg')";
+            background.style.backgroundImage = "url('clouds.jpg')";
             // wIcon.src = "icons/broken clouds.png"; 
         } else if ((id >= 500 && id <= 531) || (id >= 300 && id <= 321)) {
-            background.style.backgroundImage = "url('img/rain.jpg')";
+            background.style.backgroundImage = "url('rain.jpg')";
             // wIcon.src = "icons/rain.png";
         }
     }
