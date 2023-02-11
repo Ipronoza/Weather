@@ -7,7 +7,6 @@
      align-items: center;
      background-color: #fff;
      flex-direction: column;
-     /* background-image: url(img/clear.jpg); */
      background-repeat: no-repeat;
      background-size:cover;
      color: #fff;
@@ -187,11 +186,12 @@ border-right: none;
 margin-right: 10px;
 }
 
+ /* //////////////////////// */
+
  @media(max-width:560px){
     .wrapper {
         width: 440px;
  }
 }
-
 
  
