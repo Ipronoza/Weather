@@ -187,7 +187,6 @@ border-right: none;
 margin-right: 10px;
 }
 
- /* //////////////////////// */
  @media(max-width:560px){
     .wrapper {
         width: 440px;
